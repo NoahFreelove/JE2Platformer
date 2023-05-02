@@ -12,7 +12,7 @@ public class GameScene extends Scene {
         add(SolidTileCreator.createSolidTile(-1,-2,3,1,"grass.png"));
         add(SolidTileCreator.createSolidTile(4,-2,2,1,"grass.png"));
         add(SolidTileCreator.createSolidTile(7,0,3,1,"grass.png"));
-
+        addUI(Player.instance.playerUI);
         setCamera(Player.instance.camera);
     }
 }
